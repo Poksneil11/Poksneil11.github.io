@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="stylr.css">
+</head>
+<body>
+<div class="container">
+	
+
+	<div class="top">
+		<span onclick="moved()"><i class="fas fa-bars"></i></span>
+		<button onclick="opened()">CONTACT ME</button>
+	</div>
+
+	<div class="main">
+		<h1>WEB UI DESIGNING</h1>
+		<p>I design responsive webpage using HTML5 , CSS3, JAVASCRIPT AND  BOOTSTRAP</p>
+		<br>
+		<br>
+		<button><a href="https://drive.google.com/open?id=13nI3h3G-jVh1xzgBKdVovJZehx7G2X4o">CHECK MY RESUME</a></button>
+
+	</div>
+
+<table style="width:50%">
+  <tr>
+    <th><i class="fab fa-html5"></i></th>
+    <th><i class="fab fa-css3-alt"></i></th>
+    <th><i class="fab fa-js"></i></th>
+  </tr>
+
+  <tr>
+    <td>HTML5</td>
+    <td>CSS3</td>
+    <td>JAVASCRIPT</td>  
+  </tr>
+
+</table>
+<footer>
+
+	<ul>
+		<li><i class="fab fa-facebook-messenger"></i></li>
+		<li><i class="fab fa-facebook"></i></li>
+		<li><i class="fab fa-google"></i></li>
+	</ul>
+
+
+</footer>
+
+
+
+</div>
+
+
+<div class="contact" id="contacts">
+	<span onclick="closed()" style="float: right; font-size: 20px; padding: 5px;">x</span>
+	<P>
+EMAIL:poksneil11@gmail.com
+<br>
+FB:Harvy Rafael Abaquita
+<br>
+<br>
+<a>FOR MORE INFO CHECK MY RESUME</a>
+</P>
+</div>
+
+<div class="Harvy" id="container2">
+	
+<button onclick="moveleft()">x</button>
+<center>
+<h1>HARVY RAFAEL MATA</h1></center>
+</div>
+
+
+<script type="text/javascript">
+	
+	function opened(){
+		
+		document.getElementById('contacts').
+		style.display = "block";
+
+
+}
+
+	function get(){
+		
+		document.getElementById('contacts').
+		style.display = "none";
+
+
+}
+
+
+</script>
+
+<script type="text/javascript">
+
+	function moved(){
+	document.getElementById('container2').
+	style.width = "40%";
+}
+
+	function moveleft(){
+	document.getElementById('container2').
+	style.width = "0%";
+}
+
+
+</script>
+
+
+</body>
+</html>
